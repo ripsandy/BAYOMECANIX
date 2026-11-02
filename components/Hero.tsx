@@ -74,6 +74,21 @@ export default function Hero() {
           </span>
         </motion.div>
 
+        {/* Brand name — large highlighted */}
+        <motion.div
+          custom={0.5}
+          variants={fadeUp}
+          initial="hidden"
+          animate="visible"
+          className="mb-6"
+        >
+          <span className="text-[clamp(2.2rem,5.5vw,5rem)] font-black tracking-[0.12em] leading-none">
+            <span className="text-white/20">BAYO</span>
+            <span className="inline-block w-3 h-3 md:w-4 md:h-4 rounded-full bg-[#C7F36B] mx-1 mb-1 align-middle" />
+            <span className="text-[#C7F36B]">MECANIX</span>
+          </span>
+        </motion.div>
+
         {/* Headline */}
         <div className="overflow-hidden">
           <motion.h1
@@ -87,7 +102,7 @@ export default function Hero() {
             <br />
             THE RACE.
             <br />
-            <span className="text-[#C7F36B]">ENGINEERED</span>
+            <span className="text-white/40">ENGINEERED</span>
             <br />
             FOR THE ATHLETE.
           </motion.h1>

@@ -54,9 +54,9 @@ export default function Navbar() {
             onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
             className="flex items-center gap-2 group"
           >
-            <span className="text-[10px] font-bold tracking-[0.25em] text-[#171717] leading-none">
+            <span className="text-[15px] font-black tracking-[0.18em] text-[#171717] leading-none">
               BAYO
-              <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#C7F36B] mx-0.5 mb-0.5 align-middle" />
+              <span className="inline-block w-2 h-2 rounded-full bg-[#C7F36B] mx-0.5 mb-0.5 align-middle" />
               MECANIX
             </span>
           </a>
